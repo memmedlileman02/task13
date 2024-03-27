@@ -1,13 +1,19 @@
 //task1
 let eded = +prompt("ededi daxil edin");
 let say = 0;
-for (let i = 2; i <= eded; i++) {
-    if(eded% i ===0){
-       say++;
+for (let i = eded; i <= eded; i++) {
+    let say = 0;
+    for (let j = 1; j <= i; j++) {
+        if (i % j === 0) {
+            say++;
+        }
     }
-}
-if (say === 2) {
-    console.log(i + " sade ededdir.");
+    if (say === 2) {
+        console.log(i + " sade ededdir.");
+    }
+    else{
+        console.log(i + " murekkeb ededdir.");
+    }
 }
 
 //task2
