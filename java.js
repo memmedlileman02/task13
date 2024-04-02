@@ -12,7 +12,7 @@
 //         console.log(i + " sade ededdir!");
 //     }
 //     else{
-//         console.log(i + " murekkeb ededdir!");
+//         console.log(i + " murekkeb ededdir");
 //     }
 // }
 
@@ -36,7 +36,6 @@
 //task3
 // let eded = +prompt(" eded daxil edin:");
 // let eded2 = +prompt(" eded daxil edin:");
-
 // for (let i = eded; i < eded2; i++) {
 //       let cem = 0;
 //     for (let bölən = 1; bölən < i; bölən++) {
